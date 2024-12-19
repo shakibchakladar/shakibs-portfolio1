@@ -2,7 +2,7 @@ import { ABOUT_TEXT } from ".";
 import aboutImg from "../assets/about.jpg";
 const About = () => {
   return (
-    <div className="pb-4 border-b border-neutral-900">
+    <section id="about-me" className="pb-4 border-b border-neutral-900">
       <h2 className="my-20 text-4xl text-center text-white">About Me</h2>
       <div className="lg:flex lg:flex-wrap">
         <div className="justify-between w-full gap-4 p-2 lg:flex lg:p-8">
@@ -16,7 +16,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
